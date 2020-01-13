@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Self Serve</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="https://devtr.troquer.com.mx/media/favicon/default/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://devtr.troquer.com.mx/media/favicon/default/favicon.ico" type="image/x-icon" />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+    //<![CDATA[
+    var BLANK_URL = 'https://devtr.troquer.com.mx/js/blank.html';
+    var BLANK_IMG = 'https://devtr.troquer.com.mx/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/js/calendar/calendar-win2k-1.css" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/bootstrap.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/select-bootstrap.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/categorias.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/scroll.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/base/default/css/bigdrop/product_slider/slick.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/base/default/css/bigdrop/product_slider/slick-theme.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/inchoo_socialconnect/facebook/css/button.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/owl.carousel.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/owl.theme.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/fonts.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/jquery.fancybox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/base/default/mercadopago/css/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/base/default/mercadopago/css/style-calculator.css" media="all" />
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/lib/jquery/jquery-1-11-1.min.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/lib/jquery/noconflict.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/lib/ccard.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/prototype/validation.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/varien/js.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/varien/form.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/mage/translate.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/mage/cookies.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/bigdrop/product_slider/slick.min.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/varien/product.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/varien/configurable.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/js/calendar/calendar-setup.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/modernizr.custom.min.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/selectivizr.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/matchMedia.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/matchMedia.addListener.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/enquire.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/app.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/slideshow.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/imagesloaded.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/minicart.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/scroll.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/bootstrap-select.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/base/default/js/bigdrop/product_slider/slider.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/inchoo_socialconnect/js/jquery-ui-1-10-4.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/functions.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/list.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/static-pages.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/owl.carousel.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/troquer/default/inchoo_socialconnect/js/ajaxlogin.js"></script>
+<script type="text/javascript" src="https://devtr.troquer.com.mx/skin/frontend/rwd/default/js/lib/elevatezoom/jquery.elevateZoom-3.0.8.min.js"></script>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:300,400,500,700,600" />
+<link rel="canonical" href="http://devtr.troquer.com.mx/catalog/product/view/_ignore_category/1/id/87052/s/lentes-ray-ban-de-acetato-color-plateado/" />
+<!--[if  (lte IE 8) & (!IEMobile)]>
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/styles-ie8.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/madisonisland-ie8.css" media="all" />
+<![endif]-->
+<!--[if (gte IE 9) | (IEMobile)]><!-->
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://devtr.troquer.com.mx/skin/frontend/troquer/default/css/madisonisland.css" media="all" />
+</head>
+<style type="text/css">
+	.adjusment_content_landing_selfserve{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		/*https://devtr.troquer.com.mx/media/wysiwyg/category_buttons/que-es-self-serve.jpg*/
+	}
+	
+    .titles_selfserve_landingpage{
+       font-size: 55px;
+    }
+
+	.adjusment_steps_content{
+        padding-left: 5%;
+        padding-right: 5%;
+	}
+	.btn-dark{
+		background-color:#181818;
+		color:white;
+	}
+	.btn-dark:hover{
+		background-color:#181818 !important;
+		color:white !important;
+	}
+	.link_vende_landing_selfserve{
+		text-decoration: none;
+		color: #181818 !important;
+	}
+</style>
+<body>
+ <div class="fluid_container">
+ 	<div class="row">
+ 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center adjusment_content_landing_selfserve">
+ 			<p class="titles_selfserve_landingpage">
+ 				¿Qu&eacute; es ‘Hazlo por tu cuenta’?
+ 			</p>
+ 			<hr>
+ 			<div>
+ 				<p>
+ 				Es la opción que te da Troquer para enviarnos tus piezas a través de paquetería<br> 
+                desde cualquier parte de la República Mexicana<br> 
+                sin costo de envío. 
+ 				</p>
+ 				<p>
+ 			     Sólo tienes que seleccionar las piezas a consignar<br>  
+                 generar tu guía, preparar tu paquete y ¡Listo! 
+ 				</p>
+ 				<p>
+ 				*Puedes ver las especificaciones para vender con nosotros <a href=" https://troquer.com.mxvende" style="color:black;"><b>aquí</b></a>.
+ 				</p>
+ 			</div>
+ 		</div>
+ 		<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center adjusment_content_landing_selfserve">
+ 			<img src="https://devtr.troquer.com.mx/media/wysiwyg/category_buttons/selfserve-troquer.jpg" class="responsive_images_landing_selfserve" style="display: inline-block;width:50%;">
+ 		</div>
+ 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center adjusment_content_landing_selfserve">
+ 			<p class="titles_selfserve_landingpage">
+ 				¿C&oacute;mo funciona?
+ 			</p>
+ 			<hr>
+ 			<div class=" container text-left adjusment_steps_content">
+ 				<p>Entra a la sección <a href="https://troquer.com.mx/vende" style="color:black;"><b>‘Vende’</b></a>, selecciona la opción <a href="https://troquer.com.mx/vende/index/record" style="color:black;"><b>‘Hazlo por tu cuenta’</b></a> y sigue estos simples pasos:</p>
+ 				<br>
+
+                 <p>1.- Saca de tu clóset las piezas que quieres vender.</p>
+
+                 <p>2.- Entra a la sección<a href="https://troquer.com.mx/vende" style="color:black;"><b>‘Vende’</b></a>, dentro de nuestra página web.</p>
+
+                 <p>3.- Elige la opción ‘Hazlo por tu <a href="https://troquer.com.mx/vende/index/record" style="color:black;"><b>‘cuenta’.</b></a></p>
+
+                 <p>4.- <b>Regístrate</b> o <b>inicia sesión</b> para comenzar a ingresar la información de tus piezas.</p> 
+
+                 <p>5.- Tómale <b>fotografía</b> a las piezas que enviarás y súbelas;<b>de frente, de atrás y un acercamiento de la etiqueta</b> donde se aprecie la marca.</p> 
+
+                 <p>6.- Conoce <b>tu ganancia</b>.<i> Recuerda que ésta puede variar una vez que tus piezas pasen el filtro de revisión física en Troquer</i>.</p> 
+
+                <p> 7.- Genera tu guía para <b>mandarnos</b> tu paquete.</p>
+
+                 <p>8.- <b>Podrás llevar tu paquete</b> a la oficina de FedEx más cercana <b>o pedir la recolección </b> de éste llamando al: 01-800-00-333-39.</p>
+
+                 <p>9.- Verifica el estatus de tus piezas dentro de <b>tu perfil</b>.</p>
+
+                 <p>10.- Cuando recibamos las piezas, pasarán por <b>nuestro filtro de autentificación y curaduría.</b> 
+                 En caso de que alguna de tus piezas no pase nuestros filtros de calidad, 
+                 <b>el costo del regreso</b> corre por tu cuenta o <b>puedes donar tus piezas</b>.</p>
+             </div>
+             <div class="container">
+             	<br>
+              <p class="text-center">Cuando tus piezas pasen nuestros filtros de calidad, las fotografiamos, almacenamos y las publicamos. En cuanto se venda alguna, te avisaremos y ¡recibirás tu pago!.</p>
+              <br>
+              </div>
+             <div class="text-center">
+               <a href="https://troquer.com.mx/vende/index/record"><button class="btn btn-dark">Ir a vende</button></a>
+             </div>
+ 		</div>
+ 	</div>
+ </div>
+</body>
+</html>
